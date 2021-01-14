@@ -4407,11 +4407,6 @@
 				]
 			}
 		],
-		"parameters": {
-			"hh": {
-				"type": "string"
-			}
-		},
 		"annotations": []
 	}
 }
