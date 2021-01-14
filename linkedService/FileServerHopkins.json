@@ -1,0 +1,17 @@
+{
+	"name": "FileServerHopkins",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "FileServer",
+		"typeProperties": {
+			"host": "C:\\Users\\lbernard\\Desktop\\Ecole de la data\\Cours\\Azure\\Hopkins\\COVID-19-master\\csse_covid_19_data\\csse_covid_19_time_series",
+			"userId": "BETD\\lbernard",
+			"encryptedCredential": "eyJDcmVkZW50aWFsSWQiOiJkOTM4M2E2YS04NWI1LTQwNjEtYmJhMS0wNTZmY2JjMWI0MjkiLCJWZXJzaW9uIjoiMi4wIiwiQ2xhc3NUeXBlIjoiTWljcm9zb2Z0LkRhdGFQcm94eS5Db3JlLkludGVyU2VydmljZURhdGFDb250cmFjdC5DcmVkZW50aWFsU1UwNkNZMTQifQ=="
+		},
+		"connectVia": {
+			"referenceName": "integrationRuntime1",
+			"type": "IntegrationRuntimeReference"
+		}
+	}
+}
