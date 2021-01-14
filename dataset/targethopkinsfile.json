@@ -2,7 +2,7 @@
 	"name": "targethopkinsfile",
 	"properties": {
 		"linkedServiceName": {
-			"referenceName": "FileServerHopkins",
+			"referenceName": "AzureDataLakeStore1",
 			"type": "LinkedServiceReference"
 		},
 		"folder": {
@@ -12,8 +12,8 @@
 		"type": "DelimitedText",
 		"typeProperties": {
 			"location": {
-				"type": "FileServerLocation",
-				"fileName": "time_series_covid19_confirmed_global.csv"
+				"type": "AzureDataLakeStoreLocation",
+				"folderPath": "rawdata"
 			},
 			"columnDelimiter": ",",
 			"escapeChar": "\\",
