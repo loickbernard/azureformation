@@ -24,8 +24,7 @@
 						"pipelineReference": {
 							"referenceName": "pipeline to pipeline",
 							"type": "PipelineReference"
-						},
-						"parameters": {}
+						}
 					}
 				],
 				"type": "ScheduleTrigger",
@@ -35,8 +34,7 @@
 						"interval": 1,
 						"startTime": "2021-01-14T19:35:00",
 						"endTime": "2021-01-15T18:35:00",
-						"timeZone": "Romance Standard Time",
-						"schedule": {}
+						"timeZone": "Romance Standard Time"
 					}
 				}
 			},
