@@ -28,6 +28,10 @@
 				"dependsOn": [],
 				"userProperties": [],
 				"typeProperties": {
+					"pipeline": {
+						"referenceName": "pipeline2 Hpkins",
+						"type": "PipelineReference"
+					},
 					"waitOnCompletion": true
 				}
 			}
