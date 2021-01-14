@@ -7,7 +7,7 @@
 		"typeProperties": {
 			"host": "C:\\Users\\lbernard\\Desktop\\Ecole de la data\\Cours\\Azure\\Donnees",
 			"userId": "BETD\\lbernard",
-			"encryptedCredential": "eyJDcmVkZW50aWFsSWQiOiJmNTY0Y2MyYy04ZWUxLTRmY2YtOThhZC1jOWUzMWU4ODIyYzUiLCJWZXJzaW9uIjoiMi4wIiwiQ2xhc3NUeXBlIjoiTWljcm9zb2Z0LkRhdGFQcm94eS5Db3JlLkludGVyU2VydmljZURhdGFDb250cmFjdC5DcmVkZW50aWFsU1UwNkNZMTQifQ=="
+			"encryptedCredential": "eyJDcmVkZW50aWFsSWQiOiIwMThjYTE3NS0yNjM3LTQ5MWMtOTFiZi05MWQzNmEzNDk0YTgiLCJWZXJzaW9uIjoiMi4wIiwiQ2xhc3NUeXBlIjoiTWljcm9zb2Z0LkRhdGFQcm94eS5Db3JlLkludGVyU2VydmljZURhdGFDb250cmFjdC5DcmVkZW50aWFsU1UwNkNZMTQifQ=="
 		},
 		"connectVia": {
 			"referenceName": "integrationRuntime1",
