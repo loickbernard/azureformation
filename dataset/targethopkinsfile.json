@@ -13,7 +13,7 @@
 		"typeProperties": {
 			"location": {
 				"type": "AzureDataLakeStoreLocation",
-				"folderPath": "rawdata"
+				"folderPath": "rawdata/johnwick"
 			},
 			"columnDelimiter": ",",
 			"escapeChar": "\\",
