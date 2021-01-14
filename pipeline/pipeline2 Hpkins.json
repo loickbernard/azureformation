@@ -4409,14 +4409,7 @@
 			{
 				"name": "Copy Death",
 				"type": "Copy",
-				"dependsOn": [
-					{
-						"activity": "copy confirmed",
-						"dependencyConditions": [
-							"Succeeded"
-						]
-					}
-				],
+				"dependsOn": [],
 				"policy": {
 					"timeout": "7.00:00:00",
 					"retry": 0,
@@ -8820,14 +8813,7 @@
 			{
 				"name": "Copy recover",
 				"type": "Copy",
-				"dependsOn": [
-					{
-						"activity": "Copy Death",
-						"dependencyConditions": [
-							"Succeeded"
-						]
-					}
-				],
+				"dependsOn": [],
 				"policy": {
 					"timeout": "7.00:00:00",
 					"retry": 0,
