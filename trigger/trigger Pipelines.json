@@ -1,0 +1,25 @@
+{
+	"name": "trigger Pipelines",
+	"properties": {
+		"annotations": [],
+		"runtimeState": "Started",
+		"pipelines": [
+			{
+				"pipelineReference": {
+					"referenceName": "pipeline2",
+					"type": "PipelineReference"
+				}
+			}
+		],
+		"type": "ScheduleTrigger",
+		"typeProperties": {
+			"recurrence": {
+				"frequency": "Day",
+				"interval": 1,
+				"startTime": "2021-01-14T19:23:00",
+				"endTime": "2021-01-15T18:23:00",
+				"timeZone": "Romance Standard Time"
+			}
+		}
+	}
+}
