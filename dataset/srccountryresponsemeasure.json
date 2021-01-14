@@ -1,0 +1,39 @@
+{
+	"name": "srccountryresponsemeasure",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "FileServer1",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "FileServerLocation",
+				"fileName": "countryresponsemeasure.csv"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"firstRowAsHeader": true,
+			"quoteChar": "\""
+		},
+		"schema": [
+			{
+				"name": "Country",
+				"type": "String"
+			},
+			{
+				"name": "Response_measure",
+				"type": "String"
+			},
+			{
+				"name": "date_start",
+				"type": "String"
+			},
+			{
+				"name": "date_end",
+				"type": "String"
+			}
+		]
+	}
+}
