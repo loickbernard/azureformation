@@ -6,7 +6,7 @@
 			"type": "LinkedServiceReference"
 		},
 		"folder": {
-			"name": "srcHopkins"
+			"name": "targetHopkins"
 		},
 		"annotations": [],
 		"type": "DelimitedText",
