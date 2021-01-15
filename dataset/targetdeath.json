@@ -2,7 +2,7 @@
 	"name": "targetdeath",
 	"properties": {
 		"linkedServiceName": {
-			"referenceName": "FileServerHopkins",
+			"referenceName": "AzureDataLakeStore1",
 			"type": "LinkedServiceReference"
 		},
 		"folder": {
@@ -12,7 +12,7 @@
 		"type": "DelimitedText",
 		"typeProperties": {
 			"location": {
-				"type": "FileServerLocation"
+				"type": "AzureDataLakeStoreLocation"
 			},
 			"columnDelimiter": ",",
 			"escapeChar": "\\",
