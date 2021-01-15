@@ -8799,7 +8799,7 @@
 				},
 				"inputs": [
 					{
-						"referenceName": "srcdeathglobal",
+						"referenceName": "srcdeath",
 						"type": "DatasetReference"
 					}
 				],
