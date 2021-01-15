@@ -29,7 +29,7 @@
 					"sink": {
 						"type": "DelimitedTextSink",
 						"storeSettings": {
-							"type": "FileServerWriteSettings"
+							"type": "AzureDataLakeStoreWriteSettings"
 						},
 						"formatSettings": {
 							"type": "DelimitedTextWriteSettings",
@@ -4433,7 +4433,7 @@
 					"sink": {
 						"type": "DelimitedTextSink",
 						"storeSettings": {
-							"type": "FileServerWriteSettings"
+							"type": "AzureDataLakeStoreWriteSettings"
 						},
 						"formatSettings": {
 							"type": "DelimitedTextWriteSettings",
@@ -8837,7 +8837,7 @@
 					"sink": {
 						"type": "DelimitedTextSink",
 						"storeSettings": {
-							"type": "FileServerWriteSettings"
+							"type": "AzureDataLakeStoreWriteSettings"
 						},
 						"formatSettings": {
 							"type": "DelimitedTextWriteSettings",
