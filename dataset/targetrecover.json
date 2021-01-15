@@ -12,7 +12,8 @@
 		"type": "DelimitedText",
 		"typeProperties": {
 			"location": {
-				"type": "AzureDataLakeStoreLocation"
+				"type": "AzureDataLakeStoreLocation",
+				"folderPath": "rawdata/johnwick"
 			},
 			"columnDelimiter": ",",
 			"escapeChar": "\\",
